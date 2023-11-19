@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   snake:
-    image: sophia329/node-js-qr-code-generator:latest
+    image: sophia329/nodejs-chatapp:latest
     environment:
     - "PORT:3000"
     ports:
