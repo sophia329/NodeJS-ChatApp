@@ -11,7 +11,7 @@ node('appserver-cweb')
   stage('Build-and-Tag')
   {
     /*This builds the actual image; same as docker build on cmd*/
-    app = docker.build("sophia329/node-js-qr-code-generator")
+    app = docker.build("sophia329/nodejs-chat-app")
   }
 
   stage('Post-to-dockerhub')
