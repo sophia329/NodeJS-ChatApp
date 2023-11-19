@@ -1,1 +1,1 @@
-# NodeJS-ChatApp
+# NodejsChatApp
