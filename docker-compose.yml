@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   apache:
-    image: sophia329/nodejs-chatapp:latest
+    image: sophia329/nodejs-chat-app:latest
     environment:
     - "PORT:3000"
     ports:
