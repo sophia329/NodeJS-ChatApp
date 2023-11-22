@@ -3,8 +3,8 @@ services:
   snake:
     image: 'sophia329/nodejs-chat-app:latest'
     environment:
-      - "PORT:3000"
+      - "PORT:3700"
     ports:
-      - "81:3000"
+      - "81:3700"
     volumes:
       - ./:/app
